@@ -1,0 +1,109 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.frame {
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+}
+
+@font-face {
+	font-family: "Inter";
+	src: url("../fonts/InterVariable.woff2") format("woff2"),
+	     url("../fonts/InterVariable.ttf") format("truetype");
+	font-weight: 100 900;
+	font-display: swap;
+}
+
+body {
+	background: #f5f5f7;
+	font-family: "Inter", sans-serif;
+	color: #1d1d1f;
+}
+
+.frame {
+	background: #ffffff;
+	display: flex;
+	align-items: center;
+	gap: 32px;
+	padding: 0 40px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+
+.photo-wrap {
+	flex: 0 0 200px;
+	height: 200px;
+	background: #f5f5f7; 
+	overflow: hidden;
+}
+
+.photo {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+
+.header {
+	font-size: 14px;
+	font-weight: 600;
+	color: #bf4800; 
+	margin-bottom: 4px;
+}
+
+.name {
+	font-size: 52px;
+	letter-spacing: -0.02em;
+	line-height: 1.05;
+	font-weight: 200;
+}
+
+.tagline {
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 8px;
+}
+
+.fineprint {
+	font-size: 11px;
+	font-weight: 300;
+	color: #86868b;
+	margin-top: 12px;
+}
+
+
+.button-wrap {
+	flex: 0 0 auto;
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	background: #0071e3;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: 500;
+	padding: 12px 24px;
+	border-radius: 980px;
+	transition: background 0.2s, font-weight 0.2s;
+}
+
+.button:hover {
+	background: #0077ed;
+	font-weight: 700; 
+}
+
+.button-note {
+	font-size: 11px;
+	color: #86868b;
+	margin-top: 8px;
+}
